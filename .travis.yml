@@ -1,0 +1,6 @@
+script:
+-  bash setup.sh
+
+after_success:
+- bash uninstall.sh
+
