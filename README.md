@@ -19,7 +19,7 @@ This script is aim to jumpstart non-vim users to be able to use vim minimally co
 
 **If you have been using vi before, this script might probably not for you**
 
-## Installing
+## Installing ( Ubuntu )
 
 ```sh
 sudo apt-get install curl
