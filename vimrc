@@ -12,7 +12,8 @@ set number
 nnoremap <silent> <C-n> :call NumberToggle()<cr>
 "set norelativenumber
 
-"autocmd VimEnter * NERDTree
+" Open nerdtree when no file arg specified
+autocmd VimEnter * if !argc() | NERDTree | endif
 
 "CTRL-t to toggle tree view with CTRL-t
 nmap <silent> <C-t> :NERDTreeToggle<CR>
