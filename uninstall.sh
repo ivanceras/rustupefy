@@ -6,7 +6,7 @@
 
 
 ## uninstall rust and cargo
-curl -sf https://raw.githubusercontent.com/brson/multirust/master/blastoff.sh | sh -s -- --yes --uninstall
+rustup self uninstall
 
 
 
