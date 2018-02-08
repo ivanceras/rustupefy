@@ -94,7 +94,7 @@ fi
 curl -LSso $HOME/.vim/plugin/racer.vim https://raw.githubusercontent.com/racer-rust/vim-racer/master/plugin/racer.vim
 
 ## install rust and cargo, using rustup and using stable as the default toolchain
-curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain stable
+curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain stable -y
 
 
 # make a Developer directory
