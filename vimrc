@@ -9,7 +9,7 @@ syntax on
 "set to abosulte numerbing
 set number
 "CTRL-n to toggle numbers
-nnoremap <silent> <C-n> :call NumberToggle()<cr>
+nnoremap <silent> <C-n> :set relativenumber!<cr>
 "set norelativenumber
 
 " Open nerdtree when no file arg specified
