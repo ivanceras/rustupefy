@@ -15,9 +15,9 @@ A series of scripts to automagically transform vim into a stunningly beautiful a
 **And crazy responsive like this**
 ![action](https://raw.githubusercontent.com/ivanceras/rustupefy/master/vim_action.gif)
 
-This script is aim to jumpstart non-vim users to be able to use vim minimally configured for rust code development.
+This script is aiming to jumpstart non-vim users to be able to use minimally configured vim for Rust development.
 
-**If you have been using vi before, this script might probably not for you**
+**If you have been using vi before, this script might not be for you**
 
 ## Installing ( Ubuntu )
 
@@ -61,22 +61,22 @@ The script will undo as much as it can, but not guaranteed as it was before.
 
 
 # Basic Controls
-	CTRL-t 			open or close nerdtree
-	CTRL-n 			toggle relative / absolute numbering
-	CTRL-w w 		switch focus on nerdtree and open windows
-	h,j,k,l			navigate the cursor left, down, up, right respectively
-	i				insert mode, you can start typing in your code
-	<ESC>   		gp back to normal/default mode, where you can issue vi commands
-	:w      		write/save the file, you are editing
-	:wqa   			save the file, then quit the editor closing vi including the files tab
-	<F2>			set focus on the nerd tree
+	CTRL-t          open or close nerdtree
+	CTRL-n          toggle relative / absolute numbering
+	CTRL-w w        switch focus on nerdtree and open windows
+	h,j,k,l         navigate the cursor left, down, up, right respectively
+	i               insert mode, you can start typing in your code
+	<ESC>           go back to normal/default mode, where you can issue vi commands
+	:w              write/save the file, you are editing
+	:wqa            save the file, then quit the editor closing vi including the files tab
+	<F2>            set focus on the nerd tree
 
 ## Rust specific commands
-	CTRL-x CTRL-o   activate auto rust autocompeletion (example: type in `String::` then press CTRL-x CTRL-o then select from the drop down list the appropriate functions)
-	gd				go to function/struct/variable declaration of the focused item ( this is equivalent to eclipse' open declaration )
-	gD				go to declaration split open in window tab
-	:bp				to go back to the previous edited file (very useful when following a declaration)
-	:b <part of filename>  when you have open a lot of files, this comes in handy in showing back the previously open files
+	CTRL-x CTRL-o           activate auto rust autocompletion (example: type in `String::` then press CTRL-x CTRL-o then select from the drop down list the appropriate functions)
+	gd                      go to function/struct/variable declaration of the focused item ( this is equivalent to eclipse' open declaration )
+	gD                      go to declaration split open in window tab
+	:bp                     to go back to the previous edited file (very useful when following a declaration)
+	:b <part of filename>   when you have open a lot of files, this comes in handy in showing back the previously open files
 
 ## Where to go from here
 
