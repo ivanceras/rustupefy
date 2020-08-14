@@ -4,17 +4,17 @@
 # A series of scripts to automagically transform vim into a stunningly beautiful and fast IDE for rust
 
 ##Update the system
-sudo apt-get update
+sudo xbps-install -Sy
 
 ## Install build-essential
-sudo apt-get install build-essential -y
+sudo xbps-install base-devel -y
 
 ## Install vim
-sudo apt-get install vim -y
+sudo xbps-install vim -y
 ## Install git
-sudo apt-get install git -y
+sudo xbps-install git -y
 ## Install curl
-sudo apt-get install curl -y
+sudo xbps-install curl -y
 
 ## Create a .rustupefy directory for backup of original vim configuration
 mkdir -p $HOME/.rustupefy
@@ -136,11 +136,3 @@ mkdir -p /tmp/powerline/
 git clone --depth 1 --branch master https://github.com/powerline/fonts /tmp/powerline/fonts
 sh /tmp/powerline/fonts/install.sh
 
-
-## install gconf2 if its not already
-sudo apt-get install gconf2 -y
-
-##Change the Default Profile of terminal to not use system font
-gconftool-2 --set /apps/gnome-terminal/profiles/Default/use_system_font --type=boolean false
-##Change the Default Profile of terminal font from command line to Meslo LG S for Powerline, with 11 font size
-gconftool-2 --set /apps/gnome-terminal/profiles/Default/font --type string "Meslo LG S for Powerline 11"
