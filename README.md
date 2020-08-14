@@ -7,40 +7,95 @@
 A series of scripts to automagically transform vim into a stunningly beautiful and fast IDE for rust
 
 **From this**
-![simple vim](https://raw.githubusercontent.com/ivanceras/rustupefy/master/bare_vim.png)
+![simple vim](https://raw.githubusercontent.com/ivanceras/rustupefy/master/assets/bare_vim.png)
 
 **To this**
-![installed](https://raw.githubusercontent.com/ivanceras/rustupefy/master/vim_complete.png)
+![installed](https://raw.githubusercontent.com/ivanceras/rustupefy/master/assets/vim_complete.png)
 
 **And crazy responsive like this**
-![action](https://raw.githubusercontent.com/ivanceras/rustupefy/master/vim_action.gif)
+![action](https://raw.githubusercontent.com/ivanceras/rustupefy/master/assets/vim_action.gif)
 
 This script is aiming to jumpstart non-vim users to be able to use minimally configured vim for Rust development.
 
 **If you have been using vi before, this script might not be for you**
 
-## Installing ( Ubuntu )
+## Ubuntu
+### Installing
 
 ```sh
 sudo apt-get install curl
 
-curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/setup.sh | sh
+curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/ubuntu/setup.sh | sh
 
 ```
 
-## To update, run the same script as above
+### To update, run the same script as above
 
 ```sh
 
-curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/setup.sh | sh
+curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/ubuntu/setup.sh | sh
 
 ```
 
-## You don't like it?
+### You don't like it?
 
 ```sh
 
-curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/uninstall.sh | sh
+curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/ubuntu/uninstall.sh | sh
+
+```
+
+## Arch Linux
+### Installing
+
+```sh
+sudo pacman -S curl
+
+curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/arch/setup.sh | sh
+
+```
+
+### To update, run the same script as above
+
+```sh
+
+curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/arch/setup.sh | sh
+
+```
+
+### You don't like it?
+
+```sh
+
+curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/arch/uninstall.sh | sh
+
+```
+
+The script will undo as much as it can, but not guaranteed as it was before.
+
+## Void Linux
+### Installing
+
+```sh
+sudo xbps-install curl
+
+curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/void/setup.sh | sh
+
+```
+
+### To update, run the same script as above
+
+```sh
+
+curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/void/setup.sh | sh
+
+```
+
+### You don't like it?
+
+```sh
+
+curl -sSf https://raw.githubusercontent.com/ivanceras/rustupefy/master/void/uninstall.sh | sh
 
 ```
 
