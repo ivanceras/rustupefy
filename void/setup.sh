@@ -10,7 +10,7 @@ sudo xbps-install -Sy
 sudo xbps-install base-devel -y
 
 ## Install vim
-sudo xbps-install vim -y
+sudo xbps-install vim-huge -y
 ## Install git
 sudo xbps-install git -y
 ## Install curl
